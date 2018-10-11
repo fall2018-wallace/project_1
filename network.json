@@ -1,42 +1,39 @@
 {
     "collaborators": [
         "sim96",
-        "loclark"
+        "loclark",
+        "kjain01"
     ],
     "created_at": "2018-10-11 15:07:18",
     "edges": [
         {
             "ports": [
                 {
-                    "input": "raw_data",
+                    "input": "satisfactionSurvey",
                     "type": "csv"
                 }
             ],
-            "source": "raw_data.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
+            "source": "satisfactionSurvey.csv",
+            "target": "analyse.R"
         }
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
+            "assigned_to": "not assigned",
+            "desc": "1.Looking at the structure of the example dataset\r\n2. Perform different visualizations like box-plot, histogram & scatter plot to understand how the columns correlate.\r\n3.The attributes which woul ptove helpful as of now for providing a good flight suggestion are satisfaction, scheduled time, departure delay & arrival delay",
+            "name": "analyse.R",
+            "task_status": "proposed"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "not assigned",
+            "desc": "*Cleaning of data is the next step. But without the entire actual dataset, we dont know what columns to work on and to edit for proper visualization and meaningful insight ",
+            "name": "cleandata.R",
+            "task_status": "proposed"
         },
         {
-            "name": "data.csv"
+            "name": "satisfactionSurvey.csv"
         }
     ],
-    "updated_at": "2018-10-11 15:19:41",
+    "updated_at": "2018-10-11 16:42:01",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

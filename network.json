@@ -11,8 +11,12 @@
             "desc": "1.Looking at the structure of the example dataset\r\n2. Perform different visualizations like box-plot, histogram & scatter plot to understand how the columns correlate.\r\n3.The attributes which woul ptove helpful as of now for providing a good flight suggestion are satisfaction, scheduled time, departure delay & arrival delay",
             "name": "analyse.R",
             "task_status": "proposed"
+        },
+        {
+            "desc": "",
+            "name": "cleandata.R"
         }
     ],
-    "updated_at": "2018-10-11 15:30:12",
+    "updated_at": "2018-10-11 15:31:07",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

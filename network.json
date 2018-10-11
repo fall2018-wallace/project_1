@@ -1,7 +1,8 @@
 {
     "collaborators": [
         "sim96",
-        "loclark"
+        "loclark",
+        "kjain01"
     ],
     "created_at": "2018-10-11 15:07:18",
     "edges": [],
@@ -19,6 +20,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-11 15:32:51",
+    "updated_at": "2018-10-11 15:57:53",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

@@ -2,7 +2,8 @@
     "collaborators": [
         "sim96",
         "loclark",
-        "kjain01"
+        "kjain01",
+        "nshah13"
     ],
     "created_at": "2018-10-11 15:07:18",
     "edges": [
@@ -34,6 +35,6 @@
             "name": "satisfactionSurvey.csv"
         }
     ],
-    "updated_at": "2018-10-11 16:42:01",
+    "updated_at": "2018-10-11 16:42:48",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

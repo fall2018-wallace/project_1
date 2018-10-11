@@ -13,10 +13,12 @@
             "task_status": "proposed"
         },
         {
-            "desc": "",
-            "name": "cleandata.R"
+            "assigned_to": "not assigned",
+            "desc": "*Cleaning of data is the next step. But without the entire actual dataset, we dont know what columns to work on and to edit for proper visualization and meaningful insight ",
+            "name": "cleandata.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-11 15:31:07",
+    "updated_at": "2018-10-11 15:32:51",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

@@ -8,11 +8,11 @@
     "nodes": [
         {
             "assigned_to": "not assigned",
-            "desc": "",
+            "desc": "1.Looking at the structure of the example dataset\r\n2. Perform different visualizations like box-plot, histogram & scatter plot to understand how the columns correlate.\r\n3.The attributes which woul ptove helpful as of now for providing a good flight suggestion are satisfaction, scheduled time, departure delay & arrival delay",
             "name": "analyse.R",
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-11 15:23:13",
+    "updated_at": "2018-10-11 15:30:12",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

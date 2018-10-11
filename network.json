@@ -18,8 +18,11 @@
             "desc": "*Cleaning of data is the next step. But without the entire actual dataset, we dont know what columns to work on and to edit for proper visualization and meaningful insight ",
             "name": "cleandata.R",
             "task_status": "proposed"
+        },
+        {
+            "name": "satisfactionSurvey.csv"
         }
     ],
-    "updated_at": "2018-10-11 15:57:53",
+    "updated_at": "2018-10-11 16:41:41",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

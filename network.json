@@ -8,7 +8,12 @@
     "created_at": "2018-10-11 15:07:18",
     "edges": [
         {
-            "ports": [],
+            "ports": [
+                {
+                    "input": "satisfactionSurvey.csv",
+                    "type": "csv"
+                }
+            ],
             "source": "satisfactionSurvey.csv",
             "target": "cleandata.R"
         }
@@ -24,6 +29,6 @@
             "name": "satisfactionSurvey.csv"
         }
     ],
-    "updated_at": "2018-10-31 16:01:26",
+    "updated_at": "2018-10-31 16:01:49",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

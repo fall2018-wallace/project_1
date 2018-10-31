@@ -16,6 +16,17 @@
             ],
             "source": "satisfactionSurvey.csv",
             "target": "cleandata.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "cleandata.R",
+            "target": "visualize.R"
         }
     ],
     "nodes": [
@@ -33,6 +44,6 @@
             "name": "visualize.R"
         }
     ],
-    "updated_at": "2018-10-31 16:15:02",
+    "updated_at": "2018-10-31 16:15:26",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

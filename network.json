@@ -27,6 +27,17 @@
             ],
             "source": "cleandata.R",
             "target": "visualize.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "cleandata.R",
+            "target": "modeling.R"
         }
     ],
     "nodes": [
@@ -48,6 +59,6 @@
             "name": "modeling.R"
         }
     ],
-    "updated_at": "2018-11-01 16:37:09",
+    "updated_at": "2018-11-01 16:38:25",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

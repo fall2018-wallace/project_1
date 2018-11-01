@@ -42,8 +42,12 @@
         {
             "desc": "",
             "name": "visualize.R"
+        },
+        {
+            "desc": "",
+            "name": "modeling.R"
         }
     ],
-    "updated_at": "2018-10-31 16:15:26",
+    "updated_at": "2018-11-01 16:37:09",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

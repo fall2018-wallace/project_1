@@ -10,12 +10,13 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
                 }
             ],
-            "source": "satisfactionSurvey.csv",
-            "target": "cleandata.R"
+            "source": "cleandata.R",
+            "target": "visualize.R"
         },
         {
             "ports": [
@@ -26,12 +27,21 @@
                 }
             ],
             "source": "cleandata.R",
-            "target": "visualize.R"
+            "target": "modeling.R"
         }
     ],
     "nodes": [
         {
-            "name": "satisfactionSurvey.csv"
+            "assigned_to": "kjain01",
+            "desc": "",
+            "name": "visualize.R",
+            "task_status": "proposed"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "",
+            "name": "modeling.R",
+            "task_status": "proposed"
         },
         {
             "assigned_to": "sim96",
@@ -40,10 +50,9 @@
             "task_status": "in progress"
         },
         {
-            "desc": "",
-            "name": "visualize.R"
+            "name": "dataset.csv"
         }
     ],
-    "updated_at": "2018-10-31 16:15:26",
+    "updated_at": "2018-11-01 17:19:48",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

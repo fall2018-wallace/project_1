@@ -28,6 +28,16 @@
             ],
             "source": "cleandata.R",
             "target": "modeling.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfactionSurvey",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "cleandata.R"
         }
     ],
     "nodes": [
@@ -53,6 +63,6 @@
             "name": "satisfactionSurvey.csv"
         }
     ],
-    "updated_at": "2018-11-01 17:21:30",
+    "updated_at": "2018-11-01 17:21:53",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

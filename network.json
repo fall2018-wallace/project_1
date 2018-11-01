@@ -48,8 +48,11 @@
             "desc": "Cleaning of data is the next step. We, as a group went through the dataset and identified the columns which were important in understanding the customer satisfaction.\r\nFrom our observation, we found out that the format of the dates wasn't  same throughout all the rows and also names of cities from where the flight took off weren't in a fix format.\r\nMoreover, we worked on finding out the NA values and its relevance in the dataset   ",
             "name": "cleandata.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "satisfactionSurvey1.csv"
         }
     ],
-    "updated_at": "2018-11-01 17:19:05",
+    "updated_at": "2018-11-01 17:19:29",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

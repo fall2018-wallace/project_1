@@ -79,8 +79,11 @@
         },
         {
             "name": "price_sat_bar.png"
+        },
+        {
+            "name": "price_sat_box.png"
         }
     ],
-    "updated_at": "2018-11-15 18:03:30",
+    "updated_at": "2018-11-15 18:04:11",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

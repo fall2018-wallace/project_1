@@ -67,8 +67,11 @@
         },
         {
             "name": "travel_sat_bar.png"
+        },
+        {
+            "name": "travel_sat_box.png"
         }
     ],
-    "updated_at": "2018-11-15 18:01:49",
+    "updated_at": "2018-11-15 18:02:24",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

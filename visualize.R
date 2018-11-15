@@ -15,13 +15,14 @@ airline_sat_bar=ggplot(project, aes(x=Airline.Status, y= Satisfaction)) + geom_c
 airline_sat_bar
 
 airline_sat_box=ggplot(project,aes(x=Airline.Status,y=Satisfaction))+geom_boxplot()
+airline_sat_box
 
-map7=ggplot(project, aes(x=Price.Sensitivity, y= Satisfaction)) + geom_col(aes(fill=Satisfaction))
-map7
+price_sat_bar=ggplot(project, aes(x=Price.Sensitivity, y= Satisfaction)) + geom_col(aes(fill=Satisfaction))
+price_sat_bar
 
-map8=ggplot(project,aes(x=Price.Sensitivity,y=Satisfaction))+geom_boxplot(aes(fill=Satisfaction, group= Price.Sensitivity))
-map8
+price_sat_box=ggplot(project,aes(x=Price.Sensitivity,y=Satisfaction))+geom_boxplot(aes(fill=Satisfaction, group= Price.Sensitivity))
+price_sat_box
 
-map9=ggplot(project, aes(x=Airline.Name, y= Satisfaction)) + geom_col(aes(fill=Satisfaction))+ theme(axis.text.x=element_text(angle=90, hjust=1))
-map9
+airline_sat_bar=ggplot(project, aes(x=Airline.Name, y= Satisfaction)) + geom_col(aes(fill=Satisfaction))+ theme(axis.text.x=element_text(angle=90, hjust=1))
+airline_sat_bar
 

@@ -38,6 +38,16 @@
             ],
             "source": "satisfactionSurvey.csv",
             "target": "cleandata.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist_sat",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "hist_sat.png"
         }
     ],
     "nodes": [
@@ -87,6 +97,6 @@
             "name": "airlinename_sat_bar.png"
         }
     ],
-    "updated_at": "2018-11-15 18:05:53",
+    "updated_at": "2018-11-15 18:06:08",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

@@ -48,6 +48,16 @@
             ],
             "source": "visualize.R",
             "target": "hist_sat.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "travel_sat_bar",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "travel_sat_bar.png"
         }
     ],
     "nodes": [
@@ -97,6 +107,6 @@
             "name": "airlinename_sat_bar.png"
         }
     ],
-    "updated_at": "2018-11-15 18:06:08",
+    "updated_at": "2018-11-15 18:06:24",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

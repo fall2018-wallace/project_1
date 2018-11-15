@@ -21,17 +21,6 @@
         {
             "ports": [
                 {
-                    "input": "project",
-                    "output": "project",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "cleandata.R",
-            "target": "modeling.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "satisfactionSurvey",
                     "type": "csv"
                 }
@@ -128,12 +117,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "loclark",
-            "desc": "",
-            "name": "modeling.R",
-            "task_status": "proposed"
-        },
-        {
             "assigned_to": "sim96",
             "desc": "Cleaning of data is the next step. We, as a group went through the dataset and identified the columns which were important in understanding the customer satisfaction.\r\nFrom our observation, we found out that the format of the dates wasn't  same throughout all the rows and also names of cities from where the flight took off weren't in a fix format.\r\nMoreover, we worked on finding out the NA values and its relevance in the dataset   ",
             "name": "cleandata.R",
@@ -167,6 +150,6 @@
             "name": "airlinename_sat_bar.png"
         }
     ],
-    "updated_at": "2018-11-15 18:08:37",
+    "updated_at": "2018-11-15 18:09:05",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

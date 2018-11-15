@@ -21,23 +21,92 @@
         {
             "ports": [
                 {
-                    "input": "project",
-                    "output": "project",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "cleandata.R",
-            "target": "modeling.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "satisfactionSurvey",
                     "type": "csv"
                 }
             ],
             "source": "satisfactionSurvey.csv",
             "target": "cleandata.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist_sat",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "hist_sat.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "travel_sat_bar",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "travel_sat_bar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "travel_sat_box",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "travel_sat_box.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "airline_sat_bar",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "airline_sat_bar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "airline_sat_box",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "airline_sat_box.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "price_sat_bar",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "price_sat_bar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "price_sat_box",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "price_sat_box.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "airlinename_sat_bar",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "airlinename_sat_bar.png"
         }
     ],
     "nodes": [
@@ -45,13 +114,7 @@
             "assigned_to": "kjain01",
             "desc": "",
             "name": "visualize.R",
-            "task_status": "proposed"
-        },
-        {
-            "assigned_to": "loclark",
-            "desc": "",
-            "name": "modeling.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         },
         {
             "assigned_to": "sim96",
@@ -61,8 +124,32 @@
         },
         {
             "name": "satisfactionSurvey.csv"
+        },
+        {
+            "name": "hist_sat.png"
+        },
+        {
+            "name": "travel_sat_bar.png"
+        },
+        {
+            "name": "travel_sat_box.png"
+        },
+        {
+            "name": "airline_sat_bar.png"
+        },
+        {
+            "name": "airline_sat_box.png"
+        },
+        {
+            "name": "price_sat_bar.png"
+        },
+        {
+            "name": "price_sat_box.png"
+        },
+        {
+            "name": "airlinename_sat_bar.png"
         }
     ],
-    "updated_at": "2018-11-01 17:21:53",
+    "updated_at": "2018-11-15 18:09:05",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

@@ -135,8 +135,12 @@
         },
         {
             "name": "price_sat_box.png"
+        },
+        {
+            "desc": "",
+            "name": "modeling.R"
         }
     ],
-    "updated_at": "2018-11-21 18:25:46",
+    "updated_at": "2018-11-21 18:29:27",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

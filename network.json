@@ -97,6 +97,17 @@
             ],
             "source": "visualize.R",
             "target": "price_sat_box.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "cleandata.R",
+            "target": "modeling.R"
         }
     ],
     "nodes": [
@@ -141,6 +152,6 @@
             "name": "modeling.R"
         }
     ],
-    "updated_at": "2018-11-21 18:29:27",
+    "updated_at": "2018-11-21 18:30:07",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

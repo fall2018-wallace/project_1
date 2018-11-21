@@ -97,16 +97,6 @@
             ],
             "source": "visualize.R",
             "target": "price_sat_box.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "airlinename_sat_bar",
-                    "type": "png"
-                }
-            ],
-            "source": "visualize.R",
-            "target": "airlinename_sat_bar.png"
         }
     ],
     "nodes": [
@@ -145,11 +135,8 @@
         },
         {
             "name": "price_sat_box.png"
-        },
-        {
-            "name": "airlinename_sat_bar.png"
         }
     ],
-    "updated_at": "2018-11-15 18:09:05",
+    "updated_at": "2018-11-21 18:25:46",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

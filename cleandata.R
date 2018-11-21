@@ -13,6 +13,12 @@ project$Orgin.City=gsub(",","", project$Orgin.City)
 project=project[order(project$Satisfaction),]
 project$Price.Sensitivity=as.numeric(project$Price.Sensitivity)
 
+unique(project$Satisfaction)
+project$Satisfaction[(project$Satisfaction == "4.00.2.00")|(project$Satisfaction == "4.00.5")]=4
+project$Satisfaction <- factor(project$Satisfaction, levels = c("1", "2", "2.5","3","3.5","4","4.5","5"))
+unique(project$Satisfaction)
+
+
 sum(is.na(project))
 summary(project)
 project

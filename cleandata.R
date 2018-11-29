@@ -10,7 +10,9 @@ project$Destination.City=gsub(",","", project$Destination.City)
 
 project$Orgin.City=gsub(",","", project$Orgin.City)
 
-project
+project=project[order(project$Satisfaction),]
+project$Price.Sensitivity=as.numeric(project$Price.Sensitivity)
 
 sum(is.na(project))
 summary(project)
+project

@@ -10,31 +10,148 @@
         {
             "ports": [
                 {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "cleandata.R",
+            "target": "visualize.R"
+        },
+        {
+            "ports": [
+                {
                     "input": "satisfactionSurvey",
                     "type": "csv"
                 }
             ],
             "source": "satisfactionSurvey.csv",
-            "target": "analyse.R"
+            "target": "cleandata.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist_sat",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "hist_sat.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "travel_sat_bar",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "travel_sat_bar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "travel_sat_box",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "travel_sat_box.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "airline_sat_bar",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "airline_sat_bar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "airline_sat_box",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "airline_sat_box.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "price_sat_bar",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "price_sat_bar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "price_sat_box",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "price_sat_box.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "cleandata.R",
+            "target": "modeling.R"
         }
     ],
     "nodes": [
         {
-            "assigned_to": "not assigned",
-            "desc": "1.Looking at the structure of the example dataset\r\n2. Perform different visualizations like box-plot, histogram & scatter plot to understand how the columns correlate.\r\n3.The attributes which woul ptove helpful as of now for providing a good flight suggestion are satisfaction, scheduled time, departure delay & arrival delay",
-            "name": "analyse.R",
-            "task_status": "proposed"
+            "assigned_to": "kjain01",
+            "desc": "",
+            "name": "visualize.R",
+            "task_status": "in progress"
         },
         {
-            "assigned_to": "not assigned",
-            "desc": "*Cleaning of data is the next step. But without the entire actual dataset, we dont know what columns to work on and to edit for proper visualization and meaningful insight ",
+            "assigned_to": "sim96",
+            "desc": "Cleaning of data is the next step. We, as a group went through the dataset and identified the columns which were important in understanding the customer satisfaction.\r\nFrom our observation, we found out that the format of the dates wasn't  same throughout all the rows and also names of cities from where the flight took off weren't in a fix format.\r\nMoreover, we worked on finding out the NA values and its relevance in the dataset   ",
             "name": "cleandata.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         },
         {
             "name": "satisfactionSurvey.csv"
+        },
+        {
+            "name": "hist_sat.png"
+        },
+        {
+            "name": "travel_sat_bar.png"
+        },
+        {
+            "name": "travel_sat_box.png"
+        },
+        {
+            "name": "airline_sat_bar.png"
+        },
+        {
+            "name": "airline_sat_box.png"
+        },
+        {
+            "name": "price_sat_bar.png"
+        },
+        {
+            "name": "price_sat_box.png"
+        },
+        {
+            "desc": "",
+            "name": "modeling.R"
         }
     ],
-    "updated_at": "2018-10-11 16:42:48",
+    "updated_at": "2018-11-21 18:30:07",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

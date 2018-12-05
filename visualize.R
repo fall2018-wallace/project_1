@@ -2,7 +2,7 @@
 options(scipen=999)
 library(ggplot2)
 
-hist_sat=ggplot(project, aes(x=Satisfaction)) + geom_histogram(bins=50,color="black", fill="black")
+hist_sat<-ggplot(project, aes(x=Satisfaction)) + geom_histogram(bins=50,color="black", fill="black")
 hist_sat
 
 travel_sat_bar=ggplot(project, aes(x=Type.of.Travel, y= Satisfaction)) + geom_col(aes(fill=Satisfaction))

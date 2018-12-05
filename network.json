@@ -101,27 +101,16 @@
         {
             "ports": [
                 {
-                    "output": "airlinename_sat_bar",
-                    "type": "png"
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
                 }
             ],
-            "source": "visualize.R",
-            "target": "airlinename_sat_bar.png"
+            "source": "cleandata.R",
+            "target": "modeling.R"
         }
     ],
     "nodes": [
-        {
-            "assigned_to": "kjain01",
-            "desc": "",
-            "name": "visualize.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "sim96",
-            "desc": "Cleaning of data is the next step. We, as a group went through the dataset and identified the columns which were important in understanding the customer satisfaction.\r\nFrom our observation, we found out that the format of the dates wasn't  same throughout all the rows and also names of cities from where the flight took off weren't in a fix format.\r\nMoreover, we worked on finding out the NA values and its relevance in the dataset   ",
-            "name": "cleandata.R",
-            "task_status": "in progress"
-        },
         {
             "name": "satisfactionSurvey.csv"
         },
@@ -147,9 +136,24 @@
             "name": "price_sat_box.png"
         },
         {
-            "name": "airlinename_sat_bar.png"
+            "assigned_to": "kjain01",
+            "desc": "In this part, we have made certain visualizations and are currently working on finding getting some more appropriate information from different attributes from the dataset, which would eventually help us in determining any other visualizations that could be done on such attributes  ",
+            "name": "visualize.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sim96",
+            "desc": "Cleaning of data was the first step. We, as a group went through the dataset and identified the columns which were important in understanding the customer satisfaction.\r\nFrom our observation, we found out that the format of the dates wasn't  same throughout all the rows and also names of cities from where the flight took off weren't in a fix format.\r\nMoreover, we worked on finding out the NA values and its relevance in the dataset. Currently, the final check on the new, cleaned dataset is being performed so that there isn't any loss in relevant values and all also that all the info is in a specific format for a particular column   ",
+            "name": "cleandata.R",
+            "task_status": "validating"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "In this part, we plan to go through different machine learning techniques covered by the professor in the class and then finalizing on selecting particular model(s) which would give us the best and desired result",
+            "name": "modeling.R",
+            "task_status": "not started"
         }
     ],
-    "updated_at": "2018-11-15 18:09:05",
+    "updated_at": "2018-12-05 00:30:38",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

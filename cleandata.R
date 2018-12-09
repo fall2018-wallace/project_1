@@ -1,6 +1,6 @@
 
 project= read.csv("satisfactionSurvey.csv")
-View(project)
+
 str(project)
 summary(project)
 dim(project)

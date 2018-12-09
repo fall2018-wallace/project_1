@@ -66,7 +66,7 @@ sum(is.na(project))
 na<-which(!(project$Satisfaction %in% c(1,2,3,4,5)))
 project<-project[-na,]
 
-View(project)
+
 str(project)
 summary(project)
 
@@ -76,7 +76,7 @@ new[project$Satisfaction < 4]="notHappy"
 project$happycustomers=new
 project$happycustomers
 
-View(project)
+
 str(project)
 summary(project)
 sum(is.na(project))
@@ -88,7 +88,7 @@ stddev_project=sapply(project, sd)
 stddev_project
 original=data.frame(stddev_project)
 colnames(original)=c("original")
-View(original)
+
 dim(original)
 
 set.seed(1)
@@ -104,11 +104,11 @@ stddev_project_samp=sapply(project_samp, sd)
 stddev_project_samp
 sample=data.frame(stddev_project_samp)
 colnames(sample)=c("sample")
-View(sample)
+
 dim(sample)
 
 std=cbind(sample, original)
-View(std)
+
 
 summary(project_samp)
 summary(project)
@@ -121,4 +121,4 @@ summary(project)
 dim(project_samp)
 dim(project)
 
-View(project_samp)
+

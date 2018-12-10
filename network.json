@@ -479,8 +479,11 @@
         },
         {
             "name": "DepartOther.png"
+        },
+        {
+            "name": "StatusSE.png"
         }
     ],
-    "updated_at": "2018-12-10 01:02:24",
+    "updated_at": "2018-12-10 01:02:40",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

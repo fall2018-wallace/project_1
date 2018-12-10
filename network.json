@@ -440,8 +440,11 @@
         },
         {
             "name": "SatArrive.png"
+        },
+        {
+            "name": "SatArriveOther.png"
         }
     ],
-    "updated_at": "2018-12-10 01:00:28",
+    "updated_at": "2018-12-10 01:01:21",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

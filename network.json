@@ -483,6 +483,32 @@
             ],
             "source": "SubsetSouthEast.R",
             "target": "SouthEastLM.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_SE",
+                    "output": "project_SE",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_other",
+                    "output": "project_other",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_SE_samp",
+                    "output": "project_SE_samp",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "SubsetSouthEast.R",
+            "target": "SVMSouthEast.R"
         }
     ],
     "nodes": [
@@ -643,10 +669,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "loclark",
             "desc": "",
-            "name": "SVMSouthEast.R"
+            "name": "SVMSouthEast.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-10 01:10:34",
+    "updated_at": "2018-12-10 01:11:25",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

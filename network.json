@@ -267,12 +267,6 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "assigned_to": "sim96",
-            "desc": "Cleaning of data was the first step. We, as a group went through the dataset and identified the columns which were important in understanding the customer satisfaction.\r\nFrom our observation, we found out that the format of the dates wasn't  same throughout all the rows and also names of cities from where the flight took off weren't in a fix format.\r\nMoreover, we worked on finding out the NA values and its relevance in the dataset. Currently, the final check on the new, cleaned dataset is being performed so that there isn't any loss in relevant values and all also that all the info is in a specific format for a particular column   ",
-            "name": "cleandata.R",
-            "task_status": "validating"
-        },
-        {
             "name": "airlinenamesat.png"
         },
         {
@@ -350,8 +344,14 @@
         {
             "desc": "Association Rules Mining",
             "name": "Arules1.R"
+        },
+        {
+            "assigned_to": "sim96",
+            "desc": "Cleaning of data was the first step. We, as a group went through the dataset and identified the columns which were important in understanding the customer satisfaction.\r\nFrom our observation, we found out that the format of the dates wasn't  same throughout all the rows and also names of cities from where the flight took off weren't in a fix format.\r\nMoreover, we worked on finding out the NA values and its relevance in the dataset. Currently, the final check on the new, cleaned dataset is being performed so that there isn't any loss in relevant values and all also that all the info is in a specific format for a particular column   ",
+            "name": "cleandata.R",
+            "task_status": "validating"
         }
     ],
-    "updated_at": "2018-12-10 00:44:50",
+    "updated_at": "2018-12-10 00:45:23",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

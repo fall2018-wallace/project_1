@@ -336,8 +336,10 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "loclark",
             "desc": "Association Rules Mining",
-            "name": "Arules1.R"
+            "name": "Arules1.R",
+            "task_status": "in progress"
         },
         {
             "assigned_to": "sim96",
@@ -350,8 +352,12 @@
             "desc": "Suppot Vector Machine",
             "name": "SVM1.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "SubsetSouthEast.R"
         }
     ],
-    "updated_at": "2018-12-10 00:46:22",
+    "updated_at": "2018-12-10 00:49:38",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

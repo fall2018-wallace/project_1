@@ -271,6 +271,27 @@
             ],
             "source": "cleandata.R",
             "target": "SubsetSouthEast.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_SE",
+                    "output": "project_SE",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_other",
+                    "output": "project_other",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "SubsetSouthEast.R",
+            "target": "SEVisuals.R"
         }
     ],
     "nodes": [
@@ -375,6 +396,6 @@
             "name": "SEVisuals.R"
         }
     ],
-    "updated_at": "2018-12-10 00:55:25",
+    "updated_at": "2018-12-10 00:56:13",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

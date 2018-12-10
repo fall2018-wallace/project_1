@@ -427,6 +427,16 @@
             ],
             "source": "SEVisuals.R",
             "target": "ClassSE.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ClassOther",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "ClassOther.png"
         }
     ],
     "nodes": [
@@ -575,6 +585,6 @@
             "name": "ClassOther.png"
         }
     ],
-    "updated_at": "2018-12-10 01:05:47",
+    "updated_at": "2018-12-10 01:05:55",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

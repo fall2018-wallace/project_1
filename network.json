@@ -45,9 +45,6 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "name": "travel_sat_bar.png"
-        },
-        {
             "name": "airline_sat_bar.png"
         },
         {
@@ -78,6 +75,6 @@
             "task_status": "validating"
         }
     ],
-    "updated_at": "2018-12-10 00:11:43",
+    "updated_at": "2018-12-10 00:11:47",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

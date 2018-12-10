@@ -417,6 +417,16 @@
             ],
             "source": "SEVisuals.R",
             "target": "FlightPerOther.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ClassSE",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "ClassSE.png"
         }
     ],
     "nodes": [
@@ -562,6 +572,6 @@
             "name": "ClassSE.png"
         }
     ],
-    "updated_at": "2018-12-10 01:05:23",
+    "updated_at": "2018-12-10 01:05:32",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

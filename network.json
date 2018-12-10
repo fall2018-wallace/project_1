@@ -168,6 +168,16 @@
             ],
             "source": "LinearModels1.R",
             "target": "AgeSatPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "PriceSatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModels1.R",
+            "target": "PriceSatPlot.png"
         }
     ],
     "nodes": [
@@ -235,6 +245,6 @@
             "name": "PriceSatPlot.png"
         }
     ],
-    "updated_at": "2018-12-10 00:35:10",
+    "updated_at": "2018-12-10 00:35:22",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

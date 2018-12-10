@@ -217,8 +217,11 @@
             "desc": "In this part, we have made certain visualizations and are currently working on finding getting some more appropriate information from different attributes from the dataset, which would eventually help us in determining any other visualizations that could be done on such attributes  ",
             "name": "visualize.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "AgeSatPlot.png"
         }
     ],
-    "updated_at": "2018-12-10 00:33:14",
+    "updated_at": "2018-12-10 00:34:12",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

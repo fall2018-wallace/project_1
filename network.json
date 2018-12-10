@@ -447,6 +447,16 @@
             ],
             "source": "SEVisuals.R",
             "target": "PriceSenSE.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "PriceSenOther",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "PriceSenOther.png"
         }
     ],
     "nodes": [
@@ -601,6 +611,6 @@
             "name": "PriceSenOther.png"
         }
     ],
-    "updated_at": "2018-12-10 01:06:43",
+    "updated_at": "2018-12-10 01:06:52",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

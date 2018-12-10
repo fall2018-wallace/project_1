@@ -308,8 +308,12 @@
             "desc": "In this part, we plan to go through different machine learning techniques covered by the professor in the class and then finalizing on selecting particular model(s) which would give us the best and desired result",
             "name": "LinearModels1.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "Suppot Vector Machine",
+            "name": "SVM1.R"
         }
     ],
-    "updated_at": "2018-12-10 00:38:28",
+    "updated_at": "2018-12-10 00:39:37",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

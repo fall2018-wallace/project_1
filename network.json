@@ -148,6 +148,16 @@
             ],
             "source": "LinearModels1.R",
             "target": "AirlineSatPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "GenderSatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModels1.R",
+            "target": "GenderSatPlot.png"
         }
     ],
     "nodes": [
@@ -209,6 +219,6 @@
             "name": "GenderSatPlot.png"
         }
     ],
-    "updated_at": "2018-12-10 00:32:16",
+    "updated_at": "2018-12-10 00:32:23",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

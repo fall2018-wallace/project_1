@@ -637,10 +637,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "loclark",
             "desc": "",
-            "name": "SouthEastLM.R"
+            "name": "SouthEastLM.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "SVMSouthEast.R"
         }
     ],
-    "updated_at": "2018-12-10 01:09:05",
+    "updated_at": "2018-12-10 01:10:34",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

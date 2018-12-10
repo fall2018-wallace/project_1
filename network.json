@@ -357,6 +357,16 @@
             ],
             "source": "SEVisuals.R",
             "target": "DepartOther.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "StatusSE",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "StatusSE.png"
         }
     ],
     "nodes": [
@@ -484,6 +494,6 @@
             "name": "StatusSE.png"
         }
     ],
-    "updated_at": "2018-12-10 01:02:40",
+    "updated_at": "2018-12-10 01:02:49",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

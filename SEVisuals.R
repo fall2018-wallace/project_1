@@ -62,6 +62,6 @@ PriceSenSE <- ggplot(project_SE,aes(x=project_SE$Price.Sensitivity,y=project_SE$
   stat_summary(aes(y =project_SE$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 
 #16.Satisfaction vs.No. of Flights per airline for oall other airlines
-ggplot(project_other,aes(x=project_other$Price.Sensitivity,y=project_other$Satisfaction))+geom_count()+
+PriceSenOther <- ggplot(project_other,aes(x=project_other$Price.Sensitivity,y=project_other$Satisfaction))+geom_count()+
   stat_summary(aes(y =project_other$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 

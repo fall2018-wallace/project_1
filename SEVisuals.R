@@ -10,11 +10,11 @@ SatAgeSE <- ggplot(project_other,aes(x=project_other$Age,y=project_other$Satisfa
   stat_summary(aes(y =project_other$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 
 #3.Satisfaction vs. Arrival Delay for SouthEast
-ggplot(project_SE,aes(x=project_SE$Arrival.Delay.in.Minutes,y=project_SE$Satisfaction))+geom_count()+
+SatArrive <- ggplot(project_SE,aes(x=project_SE$Arrival.Delay.in.Minutes,y=project_SE$Satisfaction))+geom_count()+
   stat_summary(aes(y =project_SE$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 
 #4.Satisfaction vs. Arrival Delay for Other airlines
-ggplot(project_other,aes(x=project_other$Arrival.Delay.in.Minutes,y=project_other$Satisfaction))+geom_count()+
+SatArriveOther <- ggplot(project_other,aes(x=project_other$Arrival.Delay.in.Minutes,y=project_other$Satisfaction))+geom_count()+
   stat_summary(aes(y =project_other$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 
 #5.Satisfaction vs. Departure Delay for Southeast

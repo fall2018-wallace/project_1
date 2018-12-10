@@ -128,6 +128,16 @@
             ],
             "source": "visualize.R",
             "target": "TypeofTravelSatisfaction.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ShoppingAmountSatisfaction",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "ShoppingAmountSatisfaction.png"
         }
     ],
     "nodes": [
@@ -183,6 +193,6 @@
             "name": "ShoppingAmountSatisfaction.png"
         }
     ],
-    "updated_at": "2018-12-10 00:22:41",
+    "updated_at": "2018-12-10 00:22:49",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

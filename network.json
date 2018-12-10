@@ -321,10 +321,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "loclark",
             "desc": "Suppot Vector Machine",
-            "name": "SVM1.R"
+            "name": "SVM1.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "Association Rules Mining",
+            "name": "Arules1.R"
         }
     ],
-    "updated_at": "2018-12-10 00:39:57",
+    "updated_at": "2018-12-10 00:43:33",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

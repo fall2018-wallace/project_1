@@ -246,27 +246,6 @@
                     "input": "project",
                     "output": "project",
                     "type": "r_obj"
-                },
-                {
-                    "input": "project_samp",
-                    "output": "project_samp",
-                    "type": "r_obj"
-                },
-                {
-                    "input": "sample",
-                    "output": "sample",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "cleandata.R",
-            "target": "SVM1.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "project",
-                    "output": "project",
-                    "type": "r_obj"
                 }
             ],
             "source": "cleandata.R",
@@ -535,6 +514,27 @@
             ],
             "source": "SubsetSouthEast.R",
             "target": "ArulesSouthEast.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_samp",
+                    "output": "project_samp",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "sample",
+                    "output": "sample",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "cleandata.R",
+            "target": "SVM1.R"
         }
     ],
     "nodes": [
@@ -701,10 +701,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "loclark",
             "desc": "",
-            "name": "ArulesSouthEast.R"
+            "name": "ArulesSouthEast.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-10 01:12:16",
+    "updated_at": "2018-12-10 01:14:27",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

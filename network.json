@@ -198,6 +198,16 @@
             ],
             "source": "LinearModels1.R",
             "target": "FlightNumSatPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "TravelSatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModels1.R",
+            "target": "TravelSatPlot.png"
         }
     ],
     "nodes": [
@@ -274,6 +284,6 @@
             "name": "TravelSatPlot.png"
         }
     ],
-    "updated_at": "2018-12-10 00:36:38",
+    "updated_at": "2018-12-10 00:36:45",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

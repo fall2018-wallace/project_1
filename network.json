@@ -271,6 +271,192 @@
             ],
             "source": "cleandata.R",
             "target": "SubsetSouthEast.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_SE",
+                    "output": "project_SE",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_other",
+                    "output": "project_other",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_SE_samp",
+                    "output": "project_SE_samp",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "SubsetSouthEast.R",
+            "target": "SEVisuals.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatSE",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "SatSE.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatAgeSE",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "SatAgeSE.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatArrive",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "SatArrive.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatArriveOther",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "SatArriveOther.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "DepartSE",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "DepartSE.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "DepartOther",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "DepartOther.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "StatusSE",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "StatusSE.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "StatusOther",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "StatusOther.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "GenderSE",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "GenderSE.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "GenderOther",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "GenderOther.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "FlightPerSE",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "FlightPerSE.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "FlightPerOther",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "FlightPerOther.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ClassSE",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "ClassSE.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ClassOther",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "ClassOther.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "PriceSenSE",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "PriceSenSE.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "PriceSenOther",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "PriceSenOther.png"
         }
     ],
     "nodes": [
@@ -369,8 +555,62 @@
             "desc": "",
             "name": "SubsetSouthEast.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "SatSE.png"
+        },
+        {
+            "name": "SatAgeSE.png"
+        },
+        {
+            "name": "SatArrive.png"
+        },
+        {
+            "name": "SatArriveOther.png"
+        },
+        {
+            "name": "DepartSE.png"
+        },
+        {
+            "name": "DepartOther.png"
+        },
+        {
+            "name": "StatusSE.png"
+        },
+        {
+            "name": "StatusOther.png"
+        },
+        {
+            "name": "GenderSE.png"
+        },
+        {
+            "name": "GenderOther.png"
+        },
+        {
+            "name": "FlightPerSE.png"
+        },
+        {
+            "name": "FlightPerOther.png"
+        },
+        {
+            "name": "ClassSE.png"
+        },
+        {
+            "name": "ClassOther.png"
+        },
+        {
+            "name": "PriceSenSE.png"
+        },
+        {
+            "name": "PriceSenOther.png"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "",
+            "name": "SEVisuals.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-10 00:50:08",
+    "updated_at": "2018-12-10 01:07:07",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

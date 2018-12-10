@@ -58,6 +58,16 @@
             ],
             "source": "visualize.R",
             "target": "PriceSen.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AgeSat",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "AgeSat.png"
         }
     ],
     "nodes": [
@@ -92,6 +102,6 @@
             "name": "AgeSat.png"
         }
     ],
-    "updated_at": "2018-12-10 00:17:38",
+    "updated_at": "2018-12-10 00:17:50",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

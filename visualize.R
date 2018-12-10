@@ -32,7 +32,7 @@ NewData1=x
 PriceSen <- ggplot(NewData1,aes(x = PriceSensitivity, fill=AirlineName, y = Frequency))+geom_col(position = "dodge")
 
 #3. Satisfaction vs Age 
-AgeSat <- ggplot(project,aes(x=project$Age,y=project$Satisfaction))+geom_count()+
+AgeSat1 <- ggplot(project,aes(x=project$Age,y=project$Satisfaction))+geom_count()+
   stat_summary(aes(y =project$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 
 #4.Class of Travel with respect to Type of travel

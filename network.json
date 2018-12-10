@@ -68,6 +68,16 @@
             ],
             "source": "visualize.R",
             "target": "AgeSat.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "TypeClass",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "TypeClass.png"
         }
     ],
     "nodes": [
@@ -105,6 +115,6 @@
             "name": "TypeClass.png"
         }
     ],
-    "updated_at": "2018-12-10 00:20:10",
+    "updated_at": "2018-12-10 00:20:27",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

@@ -51,12 +51,12 @@ YearSatPlot <- ggplot(project, aes(x=Year.of.First.Flight, y= Satisfaction)) +ge
 
 FlightNumSat=lm(formula = Satisfaction ~ No.of.Flights.p.a., data= project)
 summary(FlightNumSat)
-ggplot(project, aes(x=No.of.Flights.p.a., y= Satisfaction)) +geom_count() + stat_smooth(method = "lm", col = "red") + labs(x = "Number of Flights per Airline", y = "Satisfaction")
+FlightNumSatPlot <- ggplot(project, aes(x=No.of.Flights.p.a., y= Satisfaction)) +geom_count() + stat_smooth(method = "lm", col = "red") + labs(x = "Number of Flights per Airline", y = "Satisfaction")
 
 
 TravelSat=lm(formula = Satisfaction ~ Type.of.Travel, data= project)
 summary(TravelSat)
-ggplot(project, aes(x=Type.of.Travel, y= Satisfaction)) +geom_count() + stat_summary(aes(y=project$Satisfaction, group=1),fun.y=mean, color = "red", geom = "point", group = 1) + labs(x = "Type of Travel", y = "Satisfaction")
+TravelSatPlot <- ggplot(project, aes(x=Type.of.Travel, y= Satisfaction)) +geom_count() + stat_summary(aes(y=project$Satisfaction, group=1),fun.y=mean, color = "red", geom = "point", group = 1) + labs(x = "Type of Travel", y = "Satisfaction")
 
 
 ShoppingSat=lm(formula = Satisfaction ~ Shopping.Amount.at.Airport, data= project)

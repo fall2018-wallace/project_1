@@ -397,6 +397,16 @@
             ],
             "source": "SEVisuals.R",
             "target": "GenderOther.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "FlightPerSE",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "FlightPerSE.png"
         }
     ],
     "nodes": [
@@ -536,6 +546,6 @@
             "name": "FlightPerSE.png"
         }
     ],
-    "updated_at": "2018-12-10 01:04:32",
+    "updated_at": "2018-12-10 01:04:39",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

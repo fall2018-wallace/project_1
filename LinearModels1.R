@@ -61,9 +61,9 @@ TravelSatPlot <- ggplot(project, aes(x=Type.of.Travel, y= Satisfaction)) +geom_c
 
 ShoppingSat=lm(formula = Satisfaction ~ Shopping.Amount.at.Airport, data= project)
 summary(ShoppingSat)
-ggplot(project, aes(x=Shopping.Amount.at.Airport, y= Satisfaction)) +geom_count() + stat_smooth(method = "lm", col = "red") + labs(x = "Shopping Amount at Airport", y = "Satisfaction")
+ShoppingSatPlot <- ggplot(project, aes(x=Shopping.Amount.at.Airport, y= Satisfaction)) +geom_count() + stat_smooth(method = "lm", col = "red") + labs(x = "Shopping Amount at Airport", y = "Satisfaction")
 
 
 ClassSat=lm(formula = Satisfaction ~ Class, data= project)
 summary(ClassSat)
-ggplot(project, aes(x=Class, y= Satisfaction)) +geom_count() + stat_summary(aes(y=project$Satisfaction, group=1),fun.y=mean, color = "red", geom = "point", group = 1) + labs(x = "Class", y = "Satisfaction")
+ClassSatPlot <- ggplot(project, aes(x=Class, y= Satisfaction)) +geom_count() + stat_summary(aes(y=project$Satisfaction, group=1),fun.y=mean, color = "red", geom = "point", group = 1) + labs(x = "Class", y = "Satisfaction")

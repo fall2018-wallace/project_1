@@ -78,6 +78,16 @@
             ],
             "source": "visualize.R",
             "target": "TypeClass.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "GenderSatisfaction",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "GenderSatisfaction.png"
         }
     ],
     "nodes": [
@@ -118,6 +128,6 @@
             "name": "GenderSatisfaction.png"
         }
     ],
-    "updated_at": "2018-12-10 00:20:48",
+    "updated_at": "2018-12-10 00:20:57",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

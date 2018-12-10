@@ -297,6 +297,16 @@
             ],
             "source": "SubsetSouthEast.R",
             "target": "SEVisuals.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatSE",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "SatSE.png"
         }
     ],
     "nodes": [
@@ -406,6 +416,6 @@
             "name": "SatSE.png"
         }
     ],
-    "updated_at": "2018-12-10 00:59:15",
+    "updated_at": "2018-12-10 00:59:23",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

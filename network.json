@@ -178,8 +178,11 @@
         },
         {
             "name": "TypeofTravelSatisfaction.png"
+        },
+        {
+            "name": "ShoppingAmountSatisfaction.png"
         }
     ],
-    "updated_at": "2018-12-10 00:22:31",
+    "updated_at": "2018-12-10 00:22:41",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

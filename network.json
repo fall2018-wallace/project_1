@@ -243,8 +243,11 @@
         },
         {
             "name": "PriceSatPlot.png"
+        },
+        {
+            "name": "YearSatPlot.png"
         }
     ],
-    "updated_at": "2018-12-10 00:35:22",
+    "updated_at": "2018-12-10 00:35:45",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

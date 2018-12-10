@@ -228,6 +228,17 @@
             ],
             "source": "LinearModels1.R",
             "target": "ClassSatPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "cleandata.R",
+            "target": "SVM1.R"
         }
     ],
     "nodes": [
@@ -314,6 +325,6 @@
             "name": "SVM1.R"
         }
     ],
-    "updated_at": "2018-12-10 00:39:37",
+    "updated_at": "2018-12-10 00:39:57",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

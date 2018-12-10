@@ -29,7 +29,7 @@ x$Satisfaction[which(x$PriceSensitivity=="3")]=x$Satisfaction[which(x$PriceSensi
 x$Satisfaction[which(x$PriceSensitivity=="4")]=x$Satisfaction[which(x$PriceSensitivity=="4")]/Count4*100
 x$Satisfaction[which(x$PriceSensitivity=="5")]=x$Satisfaction[which(x$PriceSensitivity=="5")]/Count5*100
 NewData1=x
-ggplot(NewData1,aes(x = PriceSensitivity, fill=AirlineName, y = Frequency))+geom_col(position = "dodge")
+PriceSen <- ggplot(NewData1,aes(x = PriceSensitivity, fill=AirlineName, y = Frequency))+geom_col(position = "dodge")
 
 #3. Satisfaction vs Age 
 ggplot(project,aes(x=project$Age,y=project$Satisfaction))+geom_count()+

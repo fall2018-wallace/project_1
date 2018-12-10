@@ -158,6 +158,16 @@
             ],
             "source": "visualize.R",
             "target": "AgeSat.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AgeSatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModels1.R",
+            "target": "AgeSatPlot.png"
         }
     ],
     "nodes": [
@@ -222,6 +232,6 @@
             "name": "AgeSatPlot.png"
         }
     ],
-    "updated_at": "2018-12-10 00:34:12",
+    "updated_at": "2018-12-10 00:34:22",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

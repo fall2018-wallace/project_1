@@ -282,8 +282,11 @@
         },
         {
             "name": "TravelSatPlot.png"
+        },
+        {
+            "name": "ShoppingSatPlot.png"
         }
     ],
-    "updated_at": "2018-12-10 00:36:45",
+    "updated_at": "2018-12-10 00:37:39",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

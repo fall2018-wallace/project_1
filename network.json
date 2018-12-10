@@ -238,7 +238,7 @@
                 }
             ],
             "source": "cleandata.R",
-            "target": "SVM1.R"
+            "target": "Arules1.R"
         },
         {
             "ports": [
@@ -246,10 +246,15 @@
                     "input": "project",
                     "output": "project",
                     "type": "r_obj"
+                },
+                {
+                    "input": "project_samp",
+                    "output": "project_samp",
+                    "type": "r_obj"
                 }
             ],
             "source": "cleandata.R",
-            "target": "Arules1.R"
+            "target": "SVM1.R"
         }
     ],
     "nodes": [
@@ -342,6 +347,6 @@
             "name": "Arules1.R"
         }
     ],
-    "updated_at": "2018-12-10 00:43:49",
+    "updated_at": "2018-12-10 00:44:11",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

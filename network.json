@@ -165,8 +165,11 @@
         },
         {
             "name": "PriceSensitivitySatisfaction.png"
+        },
+        {
+            "name": "TypeofTravelSatisfaction.png"
         }
     ],
-    "updated_at": "2018-12-10 00:22:08",
+    "updated_at": "2018-12-10 00:22:20",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

@@ -230,8 +230,11 @@
         },
         {
             "name": "AgeSatPlot.png"
+        },
+        {
+            "name": "PriceSatPlot.png"
         }
     ],
-    "updated_at": "2018-12-10 00:34:22",
+    "updated_at": "2018-12-10 00:35:10",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

@@ -113,8 +113,11 @@
         },
         {
             "name": "TypeClass.png"
+        },
+        {
+            "name": "GenderSatisfaction.png"
         }
     ],
-    "updated_at": "2018-12-10 00:20:27",
+    "updated_at": "2018-12-10 00:20:48",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

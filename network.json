@@ -45,9 +45,6 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "name": "price_sat_bar.png"
-        },
-        {
             "name": "price_sat_box.png"
         },
         {
@@ -69,6 +66,6 @@
             "task_status": "validating"
         }
     ],
-    "updated_at": "2018-12-10 00:11:57",
+    "updated_at": "2018-12-10 00:12:02",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

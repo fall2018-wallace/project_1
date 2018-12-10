@@ -41,12 +41,12 @@ AgeSatPlot <- ggplot(project, aes(x=Age, y= Satisfaction)) +geom_count() + stat_
 
 PriceSat=lm(formula = Satisfaction ~ Price.Sensitivity, data= project)
 summary(PriceSat)
-ggplot(project, aes(x=Price.Sensitivity, y= Satisfaction)) +geom_count() + stat_smooth(method = "lm", col = "red") + labs(x = "Price Sensitivity", y = "Satisfaction")
+PriceSatPlot <- ggplot(project, aes(x=Price.Sensitivity, y= Satisfaction)) +geom_count() + stat_smooth(method = "lm", col = "red") + labs(x = "Price Sensitivity", y = "Satisfaction")
 
 
 YearSat=lm(formula = Satisfaction ~ Year.of.First.Flight, data= project)
 summary(YearSat)
-ggplot(project, aes(x=Year.of.First.Flight, y= Satisfaction)) +geom_count() + stat_smooth(method = "lm", col = "red") + labs(x = "Year of First Flight", y = "Satisfaction")
+YearSatPlot <- ggplot(project, aes(x=Year.of.First.Flight, y= Satisfaction)) +geom_count() + stat_smooth(method = "lm", col = "red") + labs(x = "Year of First Flight", y = "Satisfaction")
 
 
 FlightNumSat=lm(formula = Satisfaction ~ No.of.Flights.p.a., data= project)

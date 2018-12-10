@@ -31,17 +31,6 @@
         {
             "ports": [
                 {
-                    "input": "project",
-                    "output": "project",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "cleandata.R",
-            "target": "modeling.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "airlinenamesat",
                     "type": "png"
                 }
@@ -138,6 +127,17 @@
             ],
             "source": "visualize.R",
             "target": "ShoppingAmountSatisfaction.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "cleandata.R",
+            "target": "modeling.R"
         }
     ],
     "nodes": [
@@ -154,7 +154,7 @@
             "assigned_to": "loclark",
             "desc": "In this part, we plan to go through different machine learning techniques covered by the professor in the class and then finalizing on selecting particular model(s) which would give us the best and desired result",
             "name": "modeling.R",
-            "task_status": "not started"
+            "task_status": "in progress"
         },
         {
             "assigned_to": "sim96",
@@ -193,6 +193,6 @@
             "name": "ShoppingAmountSatisfaction.png"
         }
     ],
-    "updated_at": "2018-12-10 00:22:49",
+    "updated_at": "2018-12-10 00:26:32",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

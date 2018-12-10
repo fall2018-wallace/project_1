@@ -204,8 +204,11 @@
         },
         {
             "name": "AirlineSatPlot.png"
+        },
+        {
+            "name": "GenderSatPlot.png"
         }
     ],
-    "updated_at": "2018-12-10 00:31:52",
+    "updated_at": "2018-12-10 00:32:16",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

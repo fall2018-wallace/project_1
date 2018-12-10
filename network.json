@@ -38,6 +38,16 @@
             ],
             "source": "cleandata.R",
             "target": "modeling.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "airlinenamesat",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "airlinenamesat.png"
         }
     ],
     "nodes": [
@@ -66,6 +76,6 @@
             "name": "airlinenamesat.png"
         }
     ],
-    "updated_at": "2018-12-10 00:15:50",
+    "updated_at": "2018-12-10 00:16:14",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

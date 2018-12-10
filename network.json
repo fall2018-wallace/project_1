@@ -457,6 +457,84 @@
             ],
             "source": "SEVisuals.R",
             "target": "PriceSenOther.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_SE",
+                    "output": "project_SE",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_other",
+                    "output": "project_other",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_SE_samp",
+                    "output": "project_SE_samp",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "SubsetSouthEast.R",
+            "target": "SouthEastLM.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_SE",
+                    "output": "project_SE",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_other",
+                    "output": "project_other",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_SE_samp",
+                    "output": "project_SE_samp",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "SubsetSouthEast.R",
+            "target": "SVMSouthEast.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_SE",
+                    "output": "project_SE",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_other",
+                    "output": "project_other",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_SE_samp",
+                    "output": "project_SE_samp",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "SubsetSouthEast.R",
+            "target": "ArulesSouthEast.R"
         }
     ],
     "nodes": [
@@ -609,8 +687,24 @@
             "desc": "",
             "name": "SEVisuals.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "",
+            "name": "SouthEastLM.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "",
+            "name": "SVMSouthEast.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "ArulesSouthEast.R"
         }
     ],
-    "updated_at": "2018-12-10 01:07:07",
+    "updated_at": "2018-12-10 01:12:16",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

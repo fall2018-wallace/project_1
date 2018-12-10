@@ -387,6 +387,16 @@
             ],
             "source": "SEVisuals.R",
             "target": "GenderSE.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "GenderOther",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "GenderOther.png"
         }
     ],
     "nodes": [
@@ -523,6 +533,6 @@
             "name": "GenderOther.png"
         }
     ],
-    "updated_at": "2018-12-10 01:04:03",
+    "updated_at": "2018-12-10 01:04:14",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

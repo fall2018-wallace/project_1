@@ -492,8 +492,11 @@
         },
         {
             "name": "StatusSE.png"
+        },
+        {
+            "name": "StatusOther.png"
         }
     ],
-    "updated_at": "2018-12-10 01:02:49",
+    "updated_at": "2018-12-10 01:03:05",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

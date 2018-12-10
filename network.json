@@ -673,8 +673,12 @@
             "desc": "",
             "name": "SVMSouthEast.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "ArulesSouthEast.R"
         }
     ],
-    "updated_at": "2018-12-10 01:11:25",
+    "updated_at": "2018-12-10 01:11:57",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

@@ -457,6 +457,32 @@
             ],
             "source": "SEVisuals.R",
             "target": "PriceSenOther.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_SE",
+                    "output": "project_SE",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_other",
+                    "output": "project_other",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_SE_samp",
+                    "output": "project_SE_samp",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "SubsetSouthEast.R",
+            "target": "SouthEastLM.R"
         }
     ],
     "nodes": [
@@ -615,6 +641,6 @@
             "name": "SouthEastLM.R"
         }
     ],
-    "updated_at": "2018-12-10 01:08:33",
+    "updated_at": "2018-12-10 01:09:05",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

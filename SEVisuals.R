@@ -18,23 +18,23 @@ SatArriveOther <- ggplot(project_other,aes(x=project_other$Arrival.Delay.in.Minu
   stat_summary(aes(y =project_other$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 
 #5.Satisfaction vs. Departure Delay for Southeast
-ggplot(project_SE,aes(x=project_SE$Departure.Delay.in.Minutes,y=project_SE$Satisfaction))+geom_count()+
+DepartSE <- ggplot(project_SE,aes(x=project_SE$Departure.Delay.in.Minutes,y=project_SE$Satisfaction))+geom_count()+
   stat_summary(aes(y =project_SE$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 
 #6.Satisfaction vs. Departure Delay for other airlines
-ggplot(project_other,aes(x=project_other$Departure.Delay.in.Minutes,y=project_other$Satisfaction))+geom_count()+
+DepartOther <- ggplot(project_other,aes(x=project_other$Departure.Delay.in.Minutes,y=project_other$Satisfaction))+geom_count()+
   stat_summary(aes(y =project_other$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 
 #7.Satisfaction vs. Airline Status for SE
-ggplot(project_SE,aes(x=project_SE$Airline.Status,y=project_SE$Satisfaction))+geom_count()+
+StatusSE <- ggplot(project_SE,aes(x=project_SE$Airline.Status,y=project_SE$Satisfaction))+geom_count()+
   stat_summary(aes(y =project_SE$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 
 #8.Satisfaction vs. Airline Status for other airlines
-ggplot(project_other,aes(x=project_other$Airline.Status,y=project_other$Satisfaction))+geom_count()+
+StatusOther <- ggplot(project_other,aes(x=project_other$Airline.Status,y=project_other$Satisfaction))+geom_count()+
   stat_summary(aes(y =project_other$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 
 #9.Satisfaction vs. Gender for SE
-ggplot(project_SE,aes(x=project_SE$Gender,y=project_SE$Satisfaction))+geom_count()+
+GenderSE <- ggplot(project_SE,aes(x=project_SE$Gender,y=project_SE$Satisfaction))+geom_count()+
   stat_summary(aes(y =project_SE$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 
 #10.Satisfaction vs. Gender for other airlines

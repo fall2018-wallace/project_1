@@ -26,17 +26,17 @@ summary(sat_orig)
 
 AirlineSat=lm(formula = Satisfaction ~ Airline.Status, data= project)
 summary(AirlineSat)
-ggplot(project, aes(x=Airline.Status, y= Satisfaction)) +geom_count() + stat_summary(aes(y=project$Satisfaction, group=1),fun.y=mean, color = "red", geom = "point", group = 1) + labs(x = "Airline Status", y = "Satisfaction")
+AirlineSatPlot <- ggplot(project, aes(x=Airline.Status, y= Satisfaction)) +geom_count() + stat_summary(aes(y=project$Satisfaction, group=1),fun.y=mean, color = "red", geom = "point", group = 1) + labs(x = "Airline Status", y = "Satisfaction")
 
 
 GenderSat=lm(formula = Satisfaction ~ Gender, data= project)
 summary(GenderSat)
-ggplot(project, aes(x=Gender, y= Satisfaction)) +geom_count() + stat_summary(aes(y=project$Satisfaction, group=1),fun.y=mean, color = "red", geom = "point", group = 1) + labs(x = "Gender", y = "Satisfaction")
+GenderSatPlot <- ggplot(project, aes(x=Gender, y= Satisfaction)) +geom_count() + stat_summary(aes(y=project$Satisfaction, group=1),fun.y=mean, color = "red", geom = "point", group = 1) + labs(x = "Gender", y = "Satisfaction")
 
 
 AgeSat=lm(formula = Satisfaction ~ Age, data= project)
 summary(AgeSat)
-ggplot(project, aes(x=Age, y= Satisfaction)) +geom_count() + stat_smooth(method = "lm", col = "red") + labs(x = "Age", y = "Satisfaction")
+AgeSatPlot <- ggplot(project, aes(x=Age, y= Satisfaction)) +geom_count() + stat_smooth(method = "lm", col = "red") + labs(x = "Age", y = "Satisfaction")
 
 
 PriceSat=lm(formula = Satisfaction ~ Price.Sensitivity, data= project)

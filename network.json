@@ -88,6 +88,16 @@
             ],
             "source": "visualize.R",
             "target": "GenderSatisfaction.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "TypeoftravelSat",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "TypeoftravelSat.png"
         }
     ],
     "nodes": [
@@ -131,6 +141,6 @@
             "name": "TypeoftravelSat.png"
         }
     ],
-    "updated_at": "2018-12-10 00:21:13",
+    "updated_at": "2018-12-10 00:21:22",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

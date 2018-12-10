@@ -260,6 +260,17 @@
             ],
             "source": "cleandata.R",
             "target": "SVM1.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "cleandata.R",
+            "target": "SubsetSouthEast.R"
         }
     ],
     "nodes": [
@@ -354,10 +365,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "loclark",
             "desc": "",
-            "name": "SubsetSouthEast.R"
+            "name": "SubsetSouthEast.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-10 00:49:38",
+    "updated_at": "2018-12-10 00:50:08",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

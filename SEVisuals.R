@@ -38,11 +38,11 @@ GenderSE <- ggplot(project_SE,aes(x=project_SE$Gender,y=project_SE$Satisfaction)
   stat_summary(aes(y =project_SE$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 
 #10.Satisfaction vs. Gender for other airlines
-ggplot(project_other,aes(x=project_other$Gender,y=project_other$Satisfaction))+geom_count()+
+GenderOther <- ggplot(project_other,aes(x=project_other$Gender,y=project_other$Satisfaction))+geom_count()+
   stat_summary(aes(y =project_other$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 
 #11.Satisfaction vs. No of Flights per airline for SE
-ggplot(project_SE,aes(x=project_SE$No.of.Flights.p.a.,y=project_SE$Satisfaction))+geom_count()+
+FlightPerSE <- ggplot(project_SE,aes(x=project_SE$No.of.Flights.p.a.,y=project_SE$Satisfaction))+geom_count()+
   stat_summary(aes(y =project_SE$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 
 #12.Satisfaction vs.No. of Flights per airline for all other airlines

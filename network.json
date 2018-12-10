@@ -45,9 +45,6 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "name": "price_sat_box.png"
-        },
-        {
             "assigned_to": "kjain01",
             "desc": "In this part, we have made certain visualizations and are currently working on finding getting some more appropriate information from different attributes from the dataset, which would eventually help us in determining any other visualizations that could be done on such attributes  ",
             "name": "visualize.R",
@@ -66,6 +63,6 @@
             "task_status": "validating"
         }
     ],
-    "updated_at": "2018-12-10 00:12:02",
+    "updated_at": "2018-12-10 00:12:06",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

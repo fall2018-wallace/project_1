@@ -138,6 +138,16 @@
             ],
             "source": "cleandata.R",
             "target": "LinearModels1.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AirlineSatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModels1.R",
+            "target": "AirlineSatPlot.png"
         }
     ],
     "nodes": [
@@ -196,6 +206,6 @@
             "name": "AirlineSatPlot.png"
         }
     ],
-    "updated_at": "2018-12-10 00:31:44",
+    "updated_at": "2018-12-10 00:31:52",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

@@ -327,6 +327,16 @@
             ],
             "source": "SEVisuals.R",
             "target": "SatArrive.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatArriveOther",
+                    "type": "png"
+                }
+            ],
+            "source": "SEVisuals.R",
+            "target": "SatArriveOther.png"
         }
     ],
     "nodes": [
@@ -445,6 +455,6 @@
             "name": "SatArriveOther.png"
         }
     ],
-    "updated_at": "2018-12-10 01:01:21",
+    "updated_at": "2018-12-10 01:01:29",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

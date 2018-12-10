@@ -583,8 +583,11 @@
         },
         {
             "name": "ClassOther.png"
+        },
+        {
+            "name": "PriceSenSE.png"
         }
     ],
-    "updated_at": "2018-12-10 01:05:55",
+    "updated_at": "2018-12-10 01:06:19",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

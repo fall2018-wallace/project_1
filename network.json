@@ -118,6 +118,16 @@
             ],
             "source": "visualize.R",
             "target": "PriceSensitivitySatisfaction.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "TypeofTravelSatisfaction",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "TypeofTravelSatisfaction.png"
         }
     ],
     "nodes": [
@@ -170,6 +180,6 @@
             "name": "TypeofTravelSatisfaction.png"
         }
     ],
-    "updated_at": "2018-12-10 00:22:20",
+    "updated_at": "2018-12-10 00:22:31",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

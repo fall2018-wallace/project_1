@@ -48,6 +48,16 @@
             ],
             "source": "visualize.R",
             "target": "airlinenamesat.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "PriceSen",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "PriceSen.png"
         }
     ],
     "nodes": [
@@ -79,6 +89,6 @@
             "name": "PriceSen.png"
         }
     ],
-    "updated_at": "2018-12-10 00:16:57",
+    "updated_at": "2018-12-10 00:17:14",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

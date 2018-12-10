@@ -31,72 +31,92 @@
         {
             "ports": [
                 {
-                    "output": "hist_sat",
+                    "output": "airlinenamesat",
                     "type": "png"
                 }
             ],
             "source": "visualize.R",
-            "target": "hist_sat.png"
+            "target": "airlinenamesat.png"
         },
         {
             "ports": [
                 {
-                    "output": "travel_sat_bar",
+                    "output": "PriceSen",
                     "type": "png"
                 }
             ],
             "source": "visualize.R",
-            "target": "travel_sat_bar.png"
+            "target": "PriceSen.png"
         },
         {
             "ports": [
                 {
-                    "output": "travel_sat_box",
+                    "output": "TypeClass",
                     "type": "png"
                 }
             ],
             "source": "visualize.R",
-            "target": "travel_sat_box.png"
+            "target": "TypeClass.png"
         },
         {
             "ports": [
                 {
-                    "output": "airline_sat_bar",
+                    "output": "GenderSatisfaction",
                     "type": "png"
                 }
             ],
             "source": "visualize.R",
-            "target": "airline_sat_bar.png"
+            "target": "GenderSatisfaction.png"
         },
         {
             "ports": [
                 {
-                    "output": "airline_sat_box",
+                    "output": "TypeoftravelSat",
                     "type": "png"
                 }
             ],
             "source": "visualize.R",
-            "target": "airline_sat_box.png"
+            "target": "TypeoftravelSat.png"
         },
         {
             "ports": [
                 {
-                    "output": "price_sat_bar",
+                    "output": "AirlineStatSatisfaction",
                     "type": "png"
                 }
             ],
             "source": "visualize.R",
-            "target": "price_sat_bar.png"
+            "target": "AirlineStatSatisfaction.png"
         },
         {
             "ports": [
                 {
-                    "output": "price_sat_box",
+                    "output": "PriceSensitivitySatisfaction",
                     "type": "png"
                 }
             ],
             "source": "visualize.R",
-            "target": "price_sat_box.png"
+            "target": "PriceSensitivitySatisfaction.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "TypeofTravelSatisfaction",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "TypeofTravelSatisfaction.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ShoppingAmountSatisfaction",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "ShoppingAmountSatisfaction.png"
         },
         {
             "ports": [
@@ -107,7 +127,150 @@
                 }
             ],
             "source": "cleandata.R",
-            "target": "modeling.R"
+            "target": "LinearModels1.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AirlineSatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModels1.R",
+            "target": "AirlineSatPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "GenderSatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModels1.R",
+            "target": "GenderSatPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AgeSat1",
+                    "type": "png"
+                }
+            ],
+            "source": "visualize.R",
+            "target": "AgeSat.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AgeSatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModels1.R",
+            "target": "AgeSatPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "PriceSatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModels1.R",
+            "target": "PriceSatPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "YearSatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModels1.R",
+            "target": "YearSatPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "FlightNumSatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModels1.R",
+            "target": "FlightNumSatPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "TravelSatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModels1.R",
+            "target": "TravelSatPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ShoppingSatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModels1.R",
+            "target": "ShoppingSatPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ClassSatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModels1.R",
+            "target": "ClassSatPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "cleandata.R",
+            "target": "Arules1.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "project_samp",
+                    "output": "project_samp",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "sample",
+                    "output": "sample",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "cleandata.R",
+            "target": "SVM1.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "project",
+                    "output": "project",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "cleandata.R",
+            "target": "SubsetSouthEast.R"
         }
     ],
     "nodes": [
@@ -115,30 +278,78 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "name": "hist_sat.png"
+            "name": "airlinenamesat.png"
         },
         {
-            "name": "travel_sat_bar.png"
+            "name": "PriceSen.png"
         },
         {
-            "name": "travel_sat_box.png"
+            "name": "AgeSat.png"
         },
         {
-            "name": "airline_sat_bar.png"
+            "name": "TypeClass.png"
         },
         {
-            "name": "airline_sat_box.png"
+            "name": "GenderSatisfaction.png"
         },
         {
-            "name": "price_sat_bar.png"
+            "name": "TypeoftravelSat.png"
         },
         {
-            "name": "price_sat_box.png"
+            "name": "AirlineStatSatisfaction.png"
+        },
+        {
+            "name": "PriceSensitivitySatisfaction.png"
+        },
+        {
+            "name": "TypeofTravelSatisfaction.png"
+        },
+        {
+            "name": "ShoppingAmountSatisfaction.png"
+        },
+        {
+            "name": "AirlineSatPlot.png"
+        },
+        {
+            "name": "GenderSatPlot.png"
         },
         {
             "assigned_to": "kjain01",
             "desc": "In this part, we have made certain visualizations and are currently working on finding getting some more appropriate information from different attributes from the dataset, which would eventually help us in determining any other visualizations that could be done on such attributes  ",
             "name": "visualize.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "AgeSatPlot.png"
+        },
+        {
+            "name": "PriceSatPlot.png"
+        },
+        {
+            "name": "YearSatPlot.png"
+        },
+        {
+            "name": "FlightNumSatPlot.png"
+        },
+        {
+            "name": "TravelSatPlot.png"
+        },
+        {
+            "name": "ShoppingSatPlot.png"
+        },
+        {
+            "name": "ClassSatPlot.png"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "In this part, we plan to go through different machine learning techniques covered by the professor in the class and then finalizing on selecting particular model(s) which would give us the best and desired result",
+            "name": "LinearModels1.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "Association Rules Mining",
+            "name": "Arules1.R",
             "task_status": "in progress"
         },
         {
@@ -149,11 +360,17 @@
         },
         {
             "assigned_to": "loclark",
-            "desc": "In this part, we plan to go through different machine learning techniques covered by the professor in the class and then finalizing on selecting particular model(s) which would give us the best and desired result",
-            "name": "modeling.R",
-            "task_status": "not started"
+            "desc": "Suppot Vector Machine",
+            "name": "SVM1.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "",
+            "name": "SubsetSouthEast.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-05 00:30:38",
+    "updated_at": "2018-12-10 00:50:08",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

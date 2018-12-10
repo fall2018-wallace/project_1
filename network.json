@@ -31,46 +31,6 @@
         {
             "ports": [
                 {
-                    "output": "airline_sat_bar",
-                    "type": "png"
-                }
-            ],
-            "source": "visualize.R",
-            "target": "airline_sat_bar.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "airline_sat_box",
-                    "type": "png"
-                }
-            ],
-            "source": "visualize.R",
-            "target": "airline_sat_box.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "price_sat_bar",
-                    "type": "png"
-                }
-            ],
-            "source": "visualize.R",
-            "target": "price_sat_bar.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "price_sat_box",
-                    "type": "png"
-                }
-            ],
-            "source": "visualize.R",
-            "target": "price_sat_box.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "project",
                     "output": "project",
                     "type": "r_obj"
@@ -78,24 +38,11 @@
             ],
             "source": "cleandata.R",
             "target": "modeling.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "airlinenamesat",
-                    "type": "png"
-                }
-            ],
-            "source": "visualize.R",
-            "target": "hist_sat.png"
         }
     ],
     "nodes": [
         {
             "name": "satisfactionSurvey.csv"
-        },
-        {
-            "name": "hist_sat.png"
         },
         {
             "name": "travel_sat_bar.png"
@@ -131,6 +78,6 @@
             "task_status": "validating"
         }
     ],
-    "updated_at": "2018-12-10 00:11:14",
+    "updated_at": "2018-12-10 00:11:43",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

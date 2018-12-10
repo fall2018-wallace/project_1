@@ -557,8 +557,11 @@
         },
         {
             "name": "FlightPerOther.png"
+        },
+        {
+            "name": "ClassSE.png"
         }
     ],
-    "updated_at": "2018-12-10 01:05:07",
+    "updated_at": "2018-12-10 01:05:23",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

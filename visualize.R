@@ -32,7 +32,7 @@ NewData1=x
 PriceSen <- ggplot(NewData1,aes(x = PriceSensitivity, fill=AirlineName, y = Frequency))+geom_col(position = "dodge")
 
 #3. Satisfaction vs Age 
-ggplot(project,aes(x=project$Age,y=project$Satisfaction))+geom_count()+
+AgeSat <- ggplot(project,aes(x=project$Age,y=project$Satisfaction))+geom_count()+
   stat_summary(aes(y =project$Satisfaction,group=1), fun.y=mean, colour="red", geom="point",group=1)
 
 #4.Class of Travel with respect to Type of travel
@@ -48,7 +48,7 @@ x$Satisfaction[which(x$Type.of.Travel=="Personal Travel")]=x$Satisfaction[which(
 x$Satisfaction[which(x$Type.of.Travel=="Business travel")]=x$Satisfaction[which(x$Type.of.Travel=="Business Travel")]/Count2*100
 x$Satisfaction[which(x$Type.of.Travel=="Mileage tickets")]=x$Satisfaction[which(x$Type.of.Travel=="Mileage Travel")]/Count3*100
 NewData2=x
-ggplot(NewData2,aes(x = TypeofTravel, fill=ClassofTravel, y = Frequency))+geom_col(position = "dodge")
+TypeClass <- ggplot(NewData2,aes(x = TypeofTravel, fill=ClassofTravel, y = Frequency))+geom_col(position = "dodge")
 
 #5.Satisfaction vs. Gender
 GenderSatisfaction=ggplot(project, aes(Gender, Satisfaction))+geom_boxplot(aes(fill = Gender))+labs(x="Gender", y="Satisfaction")

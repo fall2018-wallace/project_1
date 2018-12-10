@@ -21,7 +21,7 @@ NewData1=table(project$Price.Sensitivity, project$Airline.Name)
 NewData1
 NewData1=data.frame(NewData1)
 colnames(NewData1)=c("PriceSensitivity","AirlineName","Frequency")
-View(NewData1)
+
 x=NewData1
 x$Satisfaction[which(x$PriceSensitivity=="1")]=x$Satisfaction[which(x$PriceSensitivity=="1")]/Count1*100
 x$Satisfaction[which(x$PriceSensitivity=="2")]=x$Satisfaction[which(x$PriceSensitivity=="2")]/Count2*100
@@ -42,7 +42,7 @@ Count8=nrow(project[which(project$Type.of.Travel == "Mileage tickets"),])
 NewData2=table(project$Type.of.Travel, project$Class)
 NewData2=data.frame(NewData2)
 colnames(NewData2)=c("TypeofTravel","ClassofTravel","Frequency")
-View(NewData2)
+
 x=NewData2
 x$Satisfaction[which(x$Type.of.Travel=="Personal Travel")]=x$Satisfaction[which(x$Type.of.Travel=="Personal Travel")]/Count1*100
 x$Satisfaction[which(x$Type.of.Travel=="Business travel")]=x$Satisfaction[which(x$Type.of.Travel=="Business Travel")]/Count2*100

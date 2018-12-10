@@ -251,6 +251,11 @@
                     "input": "project_samp",
                     "output": "project_samp",
                     "type": "r_obj"
+                },
+                {
+                    "input": "sample",
+                    "output": "sample",
+                    "type": "r_obj"
                 }
             ],
             "source": "cleandata.R",
@@ -347,6 +352,6 @@
             "name": "Arules1.R"
         }
     ],
-    "updated_at": "2018-12-10 00:44:11",
+    "updated_at": "2018-12-10 00:44:50",
     "url": "https://github.com/fall2018-wallace/project_1"
 }

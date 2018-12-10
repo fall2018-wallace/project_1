@@ -208,6 +208,16 @@
             ],
             "source": "LinearModels1.R",
             "target": "TravelSatPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ShoppingSatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "LinearModels1.R",
+            "target": "ShoppingSatPlot.png"
         }
     ],
     "nodes": [
@@ -287,6 +297,6 @@
             "name": "ShoppingSatPlot.png"
         }
     ],
-    "updated_at": "2018-12-10 00:37:39",
+    "updated_at": "2018-12-10 00:37:47",
     "url": "https://github.com/fall2018-wallace/project_1"
 }
